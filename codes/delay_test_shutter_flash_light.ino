@@ -1,6 +1,6 @@
 int i = 0;
 
-void setup() {
+void setup() {
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
@@ -11,7 +11,7 @@ int i = 0;
   digitalWrite(11, LOW);
 }
 
-void loop() {
+void loop() {
   delay(5000);
   digitalWrite(8, LOW);
   delay(i);

@@ -1,9 +1,9 @@
 #define IN1 2
 #define IN2 3
 
-int i = 0;
+int i = 0;
 
-void setup() {
+void setup() {
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   pinMode(8, OUTPUT);
@@ -18,7 +18,7 @@
   digitalWrite(IN2, LOW);
 }
 
-void loop() {
+void loop() {
   delay(5000);
   digitalWrite(IN2, HIGH);
   delay(20);

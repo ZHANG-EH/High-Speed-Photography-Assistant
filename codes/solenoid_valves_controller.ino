@@ -1,9 +1,9 @@
 #define IN3 4
-#define IN4 5
+#define IN4 5
 #define IN1 2
 #define IN2 3
-#define IN5 6
-#define IN6 7
+#define IN5 6
+#define IN6 7
 
 void setup() {
   pinMode(IN1, OUTPUT);
@@ -19,7 +19,7 @@ void setup() {
   igitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
   delay(5000);
-}
+}
 
 void loop() {
   digitalWrite(IN5, HIGH);
@@ -29,4 +29,4 @@ void loop() {
   digitalWrite(IN5, LOW);
   digitalWrite(IN4, LOW);
   digitalWrite(IN2, LOW);
-}
+}
